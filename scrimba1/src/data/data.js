@@ -28,7 +28,7 @@ const entries = [
             },
             markerImage : marker,
             countryName : "india",
-            mapLink : "https://maps.app.goo.gl/KF7KAS6gnJFKpsKd9",
+            mapLink : "https://maps.app.goo.gl/xNMK3B9WvrXBnWKa9",
             title : "charminar",
             date : "15 Apr,2025 - 24 Apr, 2025",
             description : "Charminar is in Hyderabad."
