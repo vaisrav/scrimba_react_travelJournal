@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  background-color: #f33a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  color: white;  
+}
+
+.header-image {
+  width: 24px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: Inter, sans-serif;
+}
+
+.jounal-entry {
+  display: flex;
+  margin: 2rem;
+}
+
+.main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.marker-image {
+  width: 13px;
+  margin-right: 4px;
+}
+.info-container {
+  max-height: 168px;
+}
+
+.info-container > .country{
+  margin-right: .7rem;
+  text-transform: uppercase;
+}
+
+.info-container a {
+  text-decoration: none;
+  color: #f33a5a;
+}
+
+.entry-title {
+  text-transform: capitalize;
+}
+
+.entry-text {
+  height: 3em; /* height = line-height × number of lines (example: 1.5em × 2 lines = 3em) */
+  line-height: 1.5em; /* make sure to set this */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines you want */
+  line-clamp: 2; /* standard property for compatibility */
+  -webkit-box-orient: vertical;
+}
